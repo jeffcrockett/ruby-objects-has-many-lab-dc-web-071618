@@ -1,12 +1,8 @@
-require_relative 'artist'
-
 class Song
-  attr_accessor :name, :artist
-
+  @@all = []
+  attr_accessor :name 
   def initialize(name)
     @name = name
+    @@all << self
   end
-
-  # def artist
-  # end
 end
