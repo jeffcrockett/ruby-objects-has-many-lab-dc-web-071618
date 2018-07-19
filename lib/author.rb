@@ -1,3 +1,5 @@
+require 'pry'
+
 class Author
   @@posts = []
   attr_accessor :name, :posts
